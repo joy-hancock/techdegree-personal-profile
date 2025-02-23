@@ -1,0 +1,26 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1740340457766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740340785484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \t\t</div>\n \n \t\t<header>\n \t\t\t<img\n-\t\t\t\tsrc=\"images/profile.jpeg\"\n+\t\t\t\tsrc=\"images/profile-1.jpeg\"\n \t\t\t\talt=\"Drawing of Jane Smith\"\n \t\t\t\tclass=\"profile-image\" />\n \t\t\t<h1 class=\"tag name\">Hello, I’m Jane.</h1>\n \t\t\t<p class=\"tag location\">My home is Portland, Oregon.</p>\n"
+                },
+                {
+                    "date": 1740340791644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \t\t</div>\n \n \t\t<header>\n \t\t\t<img\n-\t\t\t\tsrc=\"images/profile-1.jpeg\"\n+\t\t\t\tsrc=\"images/profile-1.png\"\n \t\t\t\talt=\"Drawing of Jane Smith\"\n \t\t\t\tclass=\"profile-image\" />\n \t\t\t<h1 class=\"tag name\">Hello, I’m Jane.</h1>\n \t\t\t<p class=\"tag location\">My home is Portland, Oregon.</p>\n"
+                }
+            ],
+            "date": 1740340457766,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>Jane Smith's Profile</title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900\" rel=\"stylesheet\"></head>\n  <body>\n\n    <div class=\"main-nav\">\n        <ul class=\"nav\">\n          <li class=\"name\">Jane Smith</li>\n          <li><a href=\"#\">Home</a></li>\n          <li><a href=\"#\">Experience</a></li>\n        </ul>\n    </div>\n\n    <header>\n      <img src=\"images/profile.jpeg\" alt=\"Drawing of Jane Smith\" class=\"profile-image\">\n      <h1 class=\"tag name\">Hello, I’m Jane.</h1>\n      <p class=\"tag location\">My home is Portland, Oregon.</p>\n    </header>\n\n    <main class=\"flex\">\n      <div class=\"card\">\n        <h2>Background</h2>\n        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>\n        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>\n      </div> \n\n      <div class=\"card\">\n        <h2>Goals</h2>\n        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>\n        <ul class=\"skills\">\n          <li>HTML</li>\n          <li>CSS</li>\n          <li>JavaScript</li>\n          <li>Ruby</li>\n          <li>Rails</li>\n        </ul>\n        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>\n      </div> \n\n    </main>\n    <footer>\n      <ul>\n        <li><a href=\"#\" class=\"social twitter\">Twitter</a></li>\n        <li><a href=\"#\" class=\"social linkedin\">LinkedIn</a></li>\n        <li><a href=\"#\" class=\"social github\">Github</a></li>\n      </ul>\n      <p class=\"copyright\">Copyright 2015, Jane Smith</p>\n    </footer>\n  </body>\n  </html>\n"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1740339593131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740339608419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\n \n header {\n \ttext-align: center;\n-\tbackground: url('images/background.jpg') no-repeat top center;\n+\tbackground: url('images/background.jpg') no-repeat center center;\n \tbackground-size: cover;\n \toverflow: hidden;\n \tpadding-top: 60px;\n }\n"
+                },
+                {
+                    "date": 1740339685275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\n \n header {\n \ttext-align: center;\n-\tbackground: url('images/background.jpg') no-repeat center center;\n+\tbackground: url('images/background.jpg') no-repeat bottom center;\n \tbackground-size: cover;\n \toverflow: hidden;\n \tpadding-top: 60px;\n }\n"
+                }
+            ],
+            "date": 1740339593131,
+            "name": "Commit-0",
+            "content": "/* Global Layout Set-up */\n* { \n  box-sizing: border-box;\n}\n  \nbody {\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  font-family: 'Roboto', sans-serif;\n  color: #222;\n  background: #f7f5f0;\n}\n/* Link Styles */\n\na {\n  text-decoration: none;\n  color: #999;\n}\na:hover {\n  color: #6633ff;\n}\n\n/* Section Styles */\n\n.main-nav {\n  width: 100%;\n  background: black;\n  min-height: 30px;\n  padding: 10px;\n  position: fixed;\n  text-align: center;\n}\n.nav {\n  display: flex;\n  justify-content: space-around;\n  font-weight: 700;\n  list-style-type: none;\n  margin: 0 auto;\n  padding: 0;\n}\n\n.nav .name {\n    display: block;\n    margin-right: auto;\n    color: white;\n}\n.nav li {\n  padding: 5px 10px 10px 10px;\n}\n.nav a {\n  transition: all .5s;\n}\n.nav a:hover {\n  color: white\n}\n\nheader {\n  text-align: center;\n  background: url('images/background.jpg') no-repeat top center ;\n  background-size: cover;\n  overflow: hidden;\n  padding-top: 60px;\n}\nheader {\n  line-height: 1.5;\n}\nheader .profile-image {\n  margin-top: 50px;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  border: 3px solid white;\n  transition: all .5s;\n}\nheader .profile-image:hover {\n  transform: scale(1.2) rotate(5deg);\n}\n.tag {\n  background-color: #efefef;\n  color: black;\n  padding: 10px;\n  border-radius: 5px;\n  display: table;\n  margin: 10px auto;\n} \n.location {\n  background-color: #222;\n  color: yellow;\n}\n.card {\n  margin: 30px;\n  padding: 20px 40px 40px;\n  max-width: 500px;\n  text-align: left;\n  background: #fff;\n  border-bottom: 4px solid #ccc;\n  border-radius: 6px;\n  transition: all .5s;\n}\n.card:hover {\n  border-color: #ff99ff;\n}\n\nul.skills {\n  padding: 0;\n  text-align: center;\n}\n\n.skills li {\n  border-radius: 6px;\n  display: inline-block;\n  background: #ff9904;\n  color: white;\n  padding: 5px 10px;\n  margin: 2px;\n}\n\n.skills li:nth-child(odd) {\n  background: #0399ff;\n}\n\nfooter {\n  width: 100%;\n  min-height: 30px;\n  padding: 20px 0 40px 20px;\n}\n\nfooter .copyright {\n  top: -8px;\n  font-size: .75em;\n}\n\nfooter ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\nfooter ul li {\n  display: inline-block;\n}\n\na.social {\n  display: inline-block;\n  text-indent: -9999px;\n  margin-left: 5px;\n  width: 30px;\n  height: 30px;\n  background-size: 30px 30px;\n  opacity: .4;\n  transition: all .5s;\n}\na.twitter {\n  background-image: url(images/twitter.svg);\n}\na.linkedin {\n  background-image: url(images/linkedin.svg);\n}\na.github {\n  background-image: url(images/github.svg);\n}\na.social:hover {\n  opacity: 1;\n}\n.clearfix {\n  clear: both;\n}\n\n/* Styles for larger screens */\n@media screen and (min-width: 720px) {\n  \n  .flex {\n      display: -ms-flexbox;      /* TWEENER - IE 10 */\n      display: flex; \n      max-width: 1200px;\n      -ms-flex-pack: distribute;\n      justify-content: space-around;\n      margin: 0 auto;\n  }\n\n  header {\n    min-height: 470px;\n  }\n\n  .nav {\n    max-width: 1200px;\n    padding: 0 30px;\n  }\n\n\n  main {\n    padding-top: 20px;\n  }\n\n  main p {\n    line-height: 1.6em;\n  }\n\n  footer {\n    font-size: 1.3em;\n    max-width: 1200px;\n    margin: 40px auto;\n  }\n\n}\n\n"
+        }
+    ]
+}
