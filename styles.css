@@ -10,15 +10,35 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #222;
 	background: #f7f5f0;
+	height: 100vh;
 }
+
+h1 {
+	color: #5e0147;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0 0 1rem 0;
+}
+
 /* Link Styles */
 
 a {
 	text-decoration: none;
-	color: #999;
+	color: white;
+	text-underline-offset: 2px;
 }
 a:hover {
-	color: #6633ff;
+	color: magenta;
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 /* Section Styles */
@@ -28,7 +48,6 @@ a:hover {
 	background: black;
 	min-height: 30px;
 	padding: 10px;
-	position: fixed;
 	text-align: center;
 }
 .nav {
@@ -48,11 +67,11 @@ a:hover {
 .nav li {
 	padding: 5px 10px 10px 10px;
 }
-.nav a {
+a {
 	transition: all 0.5s;
 }
 .nav a:hover {
-	color: white;
+	color: magenta;
 }
 
 header {
@@ -74,7 +93,7 @@ header .profile-image {
 	transition: all 0.5s;
 }
 header .profile-image:hover {
-	transform: scale(1.2) rotate(5deg);
+	transform: scale(3) rotate(360deg) translateY(15px);
 }
 .tag {
 	background-color: #efefef;
@@ -165,6 +184,92 @@ a.social:hover {
 	clear: both;
 }
 
+/* Styles for Experience Page */
+.wrapper {
+	background: url('images/bg-experience.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.experience h1 {
+	font-size: 3rem;
+}
+.experience .main-nav {
+	background-color: white;
+	padding: 10px;
+}
+
+.experience .main-nav a {
+	color: #222;
+}
+
+.experience main {
+	margin: 20px auto;
+	padding-block-start: 0;
+}
+
+.experience main li {
+	margin-block-end: 1rem;
+}
+
+.experience main .card {
+	max-width: unset;
+}
+
+.experience .card {
+	height: fit-content;
+}
+
+.resume {
+	min-height: 90vh;
+}
+
+.experience article {
+	margin-block-start: 2rem;
+}
+
+.experience a {
+	color: #5e0147;
+	text-decoration: underline;
+	padding: 4px;
+}
+
+.experience a:hover {
+	text-decoration: none;
+	color: magenta;
+	background-color: black;
+}
+
+.experience .table-of-contents {
+	flex-direction: row;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.experience .table-of-contents a {
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
+.back-to-top {
+	margin-block-start: 2rem;
+	margin-block-end: 0;
+}
+
+.experience footer {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f7f5f0;
+	max-width: unset;
+}
+.experience .copyright {
+	margin-block-end: 0;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 	.flex {
@@ -197,5 +302,9 @@ a.social:hover {
 		font-size: 1.3em;
 		max-width: 1200px;
 		margin: 40px auto;
+	}
+
+	footer p {
+		margin-block-start: 1rem;
 	}
 }
